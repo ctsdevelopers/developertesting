@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="mail.ir_cron_module_update_notification" model="ir.cron">
+        <field name="name">Update Notification</field>
+        <field eval="False" name="active"/>
+        <field name="user_id" ref="base.user_root"/>
+        <field name="numbercall">-1</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">weeks</field>
+        <field name="doall" eval="False"/>
+        <field name="model_id" ref="mail.model_publisher_warranty_contract"/>
+        <field name="state">code</field>
+        <field name="code">model.update_notification()</field>
+        <field name="priority">1000</field>
+    </record>
+
+</odoo>

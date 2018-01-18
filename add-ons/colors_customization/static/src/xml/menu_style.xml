@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="announcement_bar" t-extend="WebClient.announcement_bar">
+        <t t-jquery="td.announcement_bar" t-operation="replace"></t>
+    </t>
+</templates>
