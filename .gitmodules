@@ -1,4 +1,0 @@
-[submodule "Openworx/backend_theme"]
-	path = Openworx/backend_theme
-	url = git@github.com:Openworx/backend_theme.git
-	branch = 11.0
